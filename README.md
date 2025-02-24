@@ -28,26 +28,10 @@ JavaScript – Handling dynamic interactions.
 
 Three.js – Rendering the 3D visualization.
 
-📂 Project Structure
-
-College-3D-Explorer/
-│── index.html       # Main HTML file
-│── styles.css       # Styling file
-│── script.js        # Handles UI logic
-│── threeD.js        # 3D visualization logic using Three.js
-│── assets/          # (Optional) Folder for images or other resources
-
 🔧 Setup and Usage
-
-Clone the Repository
-
-git clone https://github.com/yourusername/College-3D-Explorer.git
-cd College-3D-Explorer
 
 Open index.html in a Browser
 Simply double-click index.html or run a local server:
-
-npx serve
 
 ✨ How It Works
 
