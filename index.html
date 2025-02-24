@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College 3D Explorer</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <script defer src="threeD.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">🏛️ College 3D Explorer</div>
+        <div class="search-bar">
+            <input type="text" id="search" placeholder="Search rooms, facilities, locations...">
+        </div>
+    </div>
+    <div class="main-container">
+        <div class="sidebar">
+            <h3>Navigation</h3>
+            <ul id="nav-list"></ul>
+        </div>
+        <div class="content">
+            <div class="view-3d" id="3d-view">3D View Loading...</div>
+            <div id="facilities"></div>
+        </div>
+    </div>
+</body>
+</html>
